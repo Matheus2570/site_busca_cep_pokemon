@@ -164,6 +164,7 @@ body {
     }
 
     .footer {
+        text-align: center;
         flex-direction: column;
     }
 
