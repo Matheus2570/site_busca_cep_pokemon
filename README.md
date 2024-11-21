@@ -1,2 +1,25 @@
-# siteBusca_cep_pokemon
-Nesse trabalho iremos fazer um site para buscar Cep e Pokemon
+# Site Busca CPF Pokemon
+
+Este é um projeto para a escola onde buscamos dados em uma API publica
+
+## Estrutura do Projeto
+
+O projeto é composto pelos seguintes arquivos principais:
+
+- `index.html`: A página inicial do cardápio, onde os lanches são exibidos.
+- `style.css`: O arquivo de estilo que define a aparência e o layout do cardápio.
+- `script.js`:  O arquivo de script para funcionalidades adicionais.
+- Imagens puxadas da API
+
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JAVASCRIPT
+- NodeJS
+
+## Como Vizualizar
+
+1. Cole esse link no seu Google:
+   ```bash
+   https://matheus2570.github.io/site_cardapio_heros_burger/
