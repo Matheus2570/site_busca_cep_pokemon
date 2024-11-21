@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,94 +7,114 @@ body{
     background-size: cover;
     animation: fundomechendo 90s infinite linear;
 }
+
 /* Inicio Header */
-.header{
+.header {
     display: flex;
     align-items: center;
-    justify-content: center;
- justify-content: space-around;
- color: black;
- h1{
-    margin-right: 25vw;
-    font-size: 2em;
- }
+    justify-content: space-around;
+    color: #ffffff; 
+    background-color: #0258a8cf; 
 }
 
-.imgLogo{
+.header h1 {
+    margin-right: 25vw;
+    font-size: 2em;
+}
+
+.imgLogo {
     padding: 5px;
     width: 13vw;
     height: auto;
     border-radius: 50%;
+    transition: transform 0.4s ease;
+}
+
+.imgLogo:hover {
+    transform: scale(1.03);
 }
 
 /* Fim Header */
 
 /* Inicio Main */
-
-.main{
+.main {
     display: flex;
-    margin-top: 5vw;
+    margin-top: 3vw;
     justify-content: center;
     align-self: center;
 }
 
-.section{
+.section {
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content: center;
-    a{
-        text-wrap: bold;
-        text-decoration: none;
-        color: black;
-    }
-    li{
-        text-wrap: bold;
-        font-size: 1.3em;
-        margin: 3vw;
-    }
 }
 
-/* FIm Main */
+.section a {
+    text-align: center;
+    padding: 10px;
+    background-color: #0048a6e2; 
+    border-radius: 6px;
+    text-wrap: bold;
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 1.3em;
+    margin: 1.5vw;
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+
+.section a:hover {
+    background-color: #003580; 
+    transform: scale(1.05);
+}
+
+/* Fim Main */
 
 /* Inicio footer */
-
-.footer{
+.footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
     justify-content: space-around;
-    background-color: rgba(175, 136, 22, 0.704);
-    width: 100%;
+    align-items: center;
+    background-color: #0258a8cf; 
+    margin-top: 3vw;
+    color: #ffffff; 
+    padding: 20px;
 }
 
-.imgGrupo{
+.imgGrupo {
     width: 20vw;
     border-radius: 15px;
+    transition: transform 0.4s ease;
 }
 
+.imgGrupo:hover {
+    transform: scale(1.03);
+}
 
-.contato{
-font-size: 1.1em;
-h3{
+.contato {
+    font-size: 1.1em;
+}
+
+.contato h3 {
     text-align: center;
     font-size: 1.3em;
 }
-}
 
-.integrantesGlobal{
+.integrantesGlobal {
     display: flex;
     gap: 25px;
     font-size: 0.9em;
     text-align: justify;
 }
 
-.tituloIntegrantes{
+.tituloIntegrantes {
     text-align: center;
     font-size: 1.2em;
 }
 
 /* Fim footer */
+
 
 @keyframes fundomechendo {
     0% { background-position: 0% 0%; }
@@ -102,165 +122,58 @@ h3{
     100% { background-position: 0% 0%; }
 }
 
-
-
+/* Media Queries */
 @media (max-width: 768px) {
-
-    .header{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-     justify-content: space-around;
-     color: black;
-     h1{
+    .header h1 {
         margin-right: 6vw;
         font-size: 2em;
-     }
     }
-    
-    .imgLogo{
+
+    .imgLogo {
         padding: 15px;
         width: 22vw;
         height: auto;
         border-radius: 50%;
     }
 
-    .main{
-        display: flex;
-        margin-top: 8vw;
-        justify-content: center;
-        align-self: center;
-    }
-    
-    .section{
-        display: flex;
+    .footer {
         flex-direction: column;
-        align-self: center;
-        justify-content: center;
-        a{
-            text-wrap: bold;
-            text-decoration: none;
-            color: black;
-        }
-        li{
-            text-wrap: bold;
-            font-size: 1.5em;
-            margin: 8vw;
-        }
+        margin-top: 10vw;
     }
 
-
-   
-        .footer{
-            flex-direction: column;
-            margin-top: 10vw;
-        }
-
-        .imgGrupo{
-            width: 30vw;
-            border-radius: 15px;
-            margin-top: 3vw;
-        }
-        
-        
-        .contato{
-        font-size: 1.3em;
-        h3{
-            text-align: center;
-            font-size: 1.3em;
-        }
-        }
-        
-        .integrantesGlobal{
-            display: flex;
-            gap: 25px;
-            font-size: 1.3em;
-            text-align: justify;
-        }
-        
-        .tituloIntegrantes{
-            text-align: center;
-            font-size: 1.1em;
-        }
+    .imgGrupo {
+        width: 30vw;
+        border-radius: 15px;
+        margin-top: 3vw;
+    }
 }
 
-
 @media (max-width: 480px) {
-
-    .header{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-     justify-content: space-around;
-     color: black;
-     h1{
-        margin-right: 6vw;
-        font-size: 2em;
-     }
-    }
-    
-    .imgLogo{
-        padding: 15px;
-        width: 22vw;
-        height: auto;
-        border-radius: 50%;
-    }
-
-    .main{
-        display: flex;
-        margin-top: 8vw;
-        justify-content: center;
-        align-self: center;
-    }
-    
-    .section{
-        display: flex;
+    .header {
         flex-direction: column;
-        align-self: center;
-        justify-content: center;
-        a{
-            text-wrap: bold;
-            text-decoration: none;
-            color: black;
-        }
-        li{
-            text-wrap: bold;
-            font-size: 1.5em;
-            margin: 8vw;
-        }
     }
 
+    .header h1 {
+        margin-right: 0;
+        font-size: 1.8em;
+    }
 
+    .imgLogo {
+        width: 30vw;
+        height: auto;
+    }
 
+    .footer {
+        flex-direction: column;
+    }
 
-        .footer{
-            flex-direction: column;
-        }
+    .imgGrupo {
+        width: 50vw;
+        border-radius: 15px;
+        margin-top: 3vw;
+    }
 
-        .imgGrupo{
-            width: 50vw;
-            border-radius: 15px;
-            margin-top: 3vw;
-        }
-        
-        
-        .contato{
-        font-size: 0.9em;
-        h3{
-            text-align: center;
-            font-size: 1.3em;
-        }
-        }
-        
-        .integrantesGlobal{
-            display: flex;
-            gap: 25px;
-            font-size: 0.9em;
-            text-align: justify;
-        }
-        
-        .tituloIntegrantes{
-            text-align: center;
-            font-size: 1em;
-        }
+    .contato h3 {
+        font-size: 1.1em;
+    }
 }

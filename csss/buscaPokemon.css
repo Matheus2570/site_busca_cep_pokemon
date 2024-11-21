@@ -1,0 +1,63 @@
+
+
+
+  /* Estilo para Buscar Pokémon */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Azul claro */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ff4500; /* Laranja */
+  margin: 20px 0;
+}
+
+.input {
+  padding: 10px;
+  width: 300px;
+  font-size: 1rem;
+  margin: 10px 0;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.botao {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff4500; /* Laranja */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #ff6347; /* Vermelho mais claro */
+}
+
+
+
+.pokemon-info,
+#errorMessage {
+  margin-top: 20px;
+  padding: 15px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 15px;
+}
+
+img {
+  max-width: 150px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+}

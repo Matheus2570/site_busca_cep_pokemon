@@ -2,7 +2,7 @@ async function fetchTop10Pokemon() {
     const pokemonListElement = document.getElementById("pokemonList");
     document.getElementById("loadingMessage").style.display = "block";
 
-    for (let i = 1; i <= 5; i++) {
+    for (let i = 1; i <= 10; i++) {
       try {
         // Requisição para API local ou PokéAPI diretamente
         const response = await fetch(`http://localhost:3000/pokemon/${i}`);

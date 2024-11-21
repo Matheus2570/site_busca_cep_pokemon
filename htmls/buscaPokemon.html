@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscar Pokemon</title>
+<link rel="stylesheet" href="../csss/buscaPokemon.css">
+  </head>
+  <body>
+    <h1>Buscar Pokemon</h1>
+    <input
+      class="input"
+      type="text"
+      id="pokemonName"
+      placeholder="Digite um Pokemon ou ID do Pokemon"
+    />
+    <button class="botao" onclick="fetchPokemon()">Buscar</button>
+    <p id="loadingMessage" style="display: none">Carregando...</p>
+    <div id="errorMessage" style="display: none"></div>
+    <div class="pokemon-info" id="pokemonInfo" style="display: none">
+      <h2 id="pokemonTitle"></h2>
+      <img id="pokemonImage" src="" alt="Image do Pokemon" />
+      <p><strong>Altura: </strong><span id="pokemonHeight"></span> metros</p>
+      <p><strong>Peso: </strong><span id="pokemonWeight"></span> kg</p>
+      <p><strong>Habilidades: </strong><span id="pokemonAbilities"></span></p>
+      <p><strong>Tipos: </strong><span id="pokemonTypes"></span></p>
+    </div>
+
+  <script src="../scripts/buscaPokemon.js"></script>
+  </body>
+</html>
