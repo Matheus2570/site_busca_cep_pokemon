@@ -44,14 +44,14 @@ body {
     align-self: center;
 }
 
-.section {
+.nav {
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content: center;
 }
 
-.section a {
+.nav a {
     text-align: center;
     padding: 10px;
     background-color: #0048a6e2; 
@@ -64,7 +64,7 @@ body {
     transition: background-color 0.4s ease, transform 0.4s ease;
 }
 
-.section a:hover {
+.nav a:hover {
     background-color: #003580; 
     transform: scale(1.05);
 }
