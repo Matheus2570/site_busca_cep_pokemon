@@ -6,7 +6,7 @@ Este é um projeto para a escola onde buscamos dados em uma API publica
 
 O projeto é composto pelos seguintes arquivos principais:
 
-- `index.html`: A página inicial do cardápio, onde os pokemons etc são exibidos.
+- `index.html`: A página inicial do site, onde os pokemons etc são exibidos.
 - `style.css`: O arquivo de estilo que define a aparência e o layout.
 - `script.js`:  O arquivo de script para funcionalidades adicionais.
 - Imagens puxadas da API
