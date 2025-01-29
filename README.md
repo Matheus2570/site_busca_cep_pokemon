@@ -11,14 +11,14 @@ O projeto é composto pelos seguintes arquivos principais:
 - `script.js`:  O arquivo de script para funcionalidades adicionais.
 - Imagens puxadas da API
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas ✅
 
 - HTML5
 - CSS3
 - JAVASCRIPT
 - NodeJS
 
-## Como Vizualizar
+## Como Vizualizar 📌
 
 1. Cole esse link no seu Google:
    ```bash
