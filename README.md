@@ -2,7 +2,7 @@
 
 Este é um projeto para a escola onde buscamos dados em uma API publica
 
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 O projeto é composto pelos seguintes arquivos principais:
 
@@ -11,14 +11,14 @@ O projeto é composto pelos seguintes arquivos principais:
 - `script.js`:  O arquivo de script para funcionalidades adicionais.
 - Imagens puxadas da API
 
-## Tecnologias Utilizadas ✅
+## 🛠️ Tecnologias Utilizadas 
 
 - HTML5
 - CSS3
 - JAVASCRIPT
 - NodeJS
 
-## Como Vizualizar 📌
+## 📌 Como Vizualizar 
 
 1. Clone o repositório:
    ```bash
